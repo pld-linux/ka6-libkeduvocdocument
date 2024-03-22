@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.02.0
+%define		kdeappsver	24.02.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		libkeduvocdocument
 Summary:	libkeduvocdocument
 Name:		ka6-%{kaname}
-Version:	24.02.0
+Version:	24.02.1
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	884eed54fc4974e63db9fd121263c47a
+# Source0-md5:	f18060a26f51ce6e36f55b7ecd82ea0e
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel
